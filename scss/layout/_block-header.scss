@@ -1,0 +1,11 @@
+.block__header{
+    margin-bottom: 4rem;
+    text-align: center;
+    span{
+        color: $clr-primary;
+    }
+    h2{
+        font-size: clamp(2rem,5vw,3.5rem);
+        font-weight: 800;
+    }
+}
