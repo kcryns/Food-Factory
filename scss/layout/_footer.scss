@@ -1,0 +1,37 @@
+.footer{
+    background-color: $clr-dark;
+    color: $clr-light;
+    a{
+        color: $clr-light;
+    }
+    &__wrapper{
+        @include gridUneven(1.3fr 1fr 1fr 1fr, 1rem);
+        @include mediaQuery($mobile){
+            @include grid(1,2rem);
+            
+        }
+    }
+    &__item{
+        h3{
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+            span{
+                color:$clr-primary;
+            }
+        }
+        p{
+            width: 80%;
+        }
+        li{
+            margin-bottom: 1.6rem;
+        }
+    }
+}
+.copyright{
+    background-color: $clr-dark;
+    text-align: center;
+    color: $clr-primary;
+    padding: .5rem 0;
+}
