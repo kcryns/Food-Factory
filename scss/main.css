@@ -682,6 +682,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   background-position: right;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 480px) {
+  .booking {
+    background-size: 170% 100%;
+  }
+}
 .booking__content {
   background-color: #ff9a1e;
   color: #fff;
@@ -692,6 +697,13 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   place-items: center;
   justify-content: start;
 }
+@media screen and (max-width: 480px) {
+  .booking__content {
+    padding: 2rem;
+    width: 120%;
+    background-color: rgba(255, 154, 30, 0.8);
+  }
+}
 .booking__content::before {
   content: "";
   position: absolute;
@@ -700,6 +712,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   height: 100%;
   width: 40vw;
   background-color: #ff9a1e;
+}
+@media screen and (max-width: 480px) {
+  .booking__content::before {
+    background-color: rgba(255, 154, 30, 0.8);
+  }
 }
 .booking__content .inner {
   max-width: 40rem;
@@ -905,6 +922,13 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   border-radius: 0.5rem;
   transform: translateX(-12px);
   border: 3px solid #fff;
+}
+@media screen and (max-width: 480px) {
+  .newsletter__wrapper form button {
+    width: 28rem;
+    margin: 1rem;
+    transform: translateX(0);
+  }
 }
 
 .faq__block {
