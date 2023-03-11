@@ -480,7 +480,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   cursor: pointer;
   display: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .header .btn__show {
     display: block;
   }
@@ -489,12 +489,12 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   display: none;
   cursor: pointer;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .header .btn__back {
     display: block;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .header__nav {
     position: fixed;
     top: 0;
@@ -556,7 +556,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: 1.3fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .footer__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -589,7 +589,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 .banner__wrapper {
   min-height: calc(100vh - 60px);
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .banner__wrapper {
     min-height: auto;
     margin-top: 5rem;
@@ -620,7 +620,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .product__cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -737,7 +737,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   background-position: right;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .booking {
     background-size: 170% 100%;
   }
@@ -752,7 +752,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   place-items: center;
   justify-content: start;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .booking__content {
     padding: 2rem;
     width: 120%;
@@ -768,7 +768,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   width: 40vw;
   background-color: #ff9a1e;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .booking__content::before {
     background-color: rgba(255, 154, 30, 0.8);
   }
@@ -796,7 +796,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .work__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -834,7 +834,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   max-height: 44rem;
   overflow: hidden;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .app__wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -867,7 +867,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .testimonials__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -978,7 +978,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   transform: translateX(-12px);
   border: 3px solid #fff;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .newsletter__wrapper form button {
     width: 28rem;
     margin: 1rem;
@@ -1026,7 +1026,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .info__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1046,7 +1046,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .info__image__variation {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1102,7 +1102,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .info__content__header .prices {
     flex-direction: column;
     align-items: flex-start;
@@ -1213,7 +1213,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   display: flex;
   gap: 1rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 500px) {
   .tns-controls {
     justify-content: center;
   }

@@ -8,14 +8,10 @@
 }
 
 
-
-
-
-
-@mixin mediaQuery($width) {
-  @media screen and (max-width: $width) {
-    @content;
-  }
+@mixin mediaQuery($width:48rem){
+  @media screen and (min-width:$width){
+      @content
+  }   
 }
 
 @mixin scrollbar($color: $color-primary) {
