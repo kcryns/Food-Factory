@@ -169,7 +169,7 @@
         justify-content: start;
         @include mediaQuery($mobile){
             padding: 2rem;
-            width: 120%;
+            width: 103%;
             background-color: rgba($clr-primary, 0.8);
         }
         &::before{

@@ -755,7 +755,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 @media screen and (max-width: 500px) {
   .booking__content {
     padding: 2rem;
-    width: 120%;
+    width: 103%;
     background-color: rgba(255, 154, 30, 0.8);
   }
 }
